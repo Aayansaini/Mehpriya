@@ -1,0 +1,88 @@
+/*--------------- CSS OF MIDDLE PART OF HOME.JS --------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+}
+
+.Section_Box {
+    height: 100vh;
+    display: flex;
+    background-image: url("../../pexels-ali-shot-11190774.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: brown; */
+}
+
+.Content_Box {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.Col_Box_1 p {
+    height: 13vh;
+    display: flex;
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: coral; */
+}
+
+.Col_Box_1 p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: pink;
+}
+
+.Button_Preview {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.Button_Preview button {
+    height: 8vh;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.Button_Preview button:hover {
+    opacity: 0.7;
+}
+
+.Col_Box_2 {
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.Slider_Box {
+    height: 50vh;
+    display: flex;
+    /* color: #f9f9f9; */
+    align-items: center;
+    /* background-color: black; */
+}
+
+.Slider_Box p {
+    font-size: 45px;
+    font-weight: 800;
+    color: #f9f9f9;
+    text-align: center;
+}
+
+span {
+    color: pink;
+}
