@@ -50,7 +50,7 @@ export function Navbar() {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/Categories">
                     KURTIES
                   </a>
                 </li>

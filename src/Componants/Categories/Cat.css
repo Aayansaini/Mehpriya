@@ -1,0 +1,29 @@
+.section-box-0 {
+    background-color: #03001C;
+}
+
+/* .container-box-0 {
+    background-color: aqua;
+} */
+
+.row-box-0 {
+    display: flex;
+    padding: 25px;
+    /* background-color: black; */
+}
+
+.col-box-5 {
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: yellow;
+}
+
+.col-box-0 {
+    height: 200px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: yellow;
+}
