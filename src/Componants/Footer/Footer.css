@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.Section1_Box{
+
+.Section1_Box {
     border-top: 1px solid pink;
     background-color: #03001C;
 }
-.Col1_Box_1{
+
+.Col1_Box_1 {
     display: flex;
     padding-top: 50px;
     align-items: center;
@@ -11,12 +13,14 @@
     justify-content: space-evenly;
     background-color: #03001C;
 }
-.Col1_Box_1 h1{
+
+.Col1_Box_1 h1 {
     font-size: 30px;
     font-weight: 800;
     color: pink;
 }
-.Col1_Box_1 input[type=email]{
+
+.Col1_Box_1 input[type=email] {
     height: 8vh;
     width: 300px;
     border: none;
@@ -24,45 +28,53 @@
     background-color: transparent;
     border-bottom: 2px solid #f9f9f9;
 }
-.Col1_Box_1 input::placeholder{
+
+.Col1_Box_1 input::placeholder {
     color: #f9f9f9;
 }
-.Col1_Box_1 button{
+
+.Col1_Box_1 button {
     height: 9vh;
     width: 200px;
-    border:none;
-    color:#000000;
+    border: none;
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
     border-radius: 10px;
     background-color: #f9f9f9;
 }
-.Col1_Box_1 button:hover{
+
+.Col1_Box_1 button:hover {
     opacity: 0.7;
 }
-.Col2_Box_2{
+
+.Col2_Box_2 {
     display: flex;
     align-items: center;
     padding-top: 50px;
     justify-content: center;
     background-color: #03001C;
 }
-.Col2_Box_2 ul{
+
+.Col2_Box_2 ul {
     margin: auto;
 }
-.Col2_Box_2 ul li{
+
+.Col2_Box_2 ul li {
     margin: 14px;
-    font-size:13px;
+    font-size: 13px;
     color: #f9f9f9;
     list-style: none;
     text-transform: uppercase;
 }
-.Col2_Box_2 ul li:hover{
+
+.Col2_Box_2 ul li:hover {
     color: pink;
     cursor: pointer;
     transition: 0.5s;
 }
-.Foot{
+
+.Foot {
     height: 10vh;
     width: 100%;
     display: flex;
@@ -71,85 +83,101 @@
     border-top: 1px solid pink;
     background-color: #03001C;
 }
-.Foot p{
+
+.Foot p {
     font-size: 10px;
     text-align: center;
     padding-top: 20px;
     color: #f9f9f9;
 }
-.footerinput{
+
+.footerinput {
     padding-left: 10px;
-    
+
 }
-.section1unun1{
-    padding-top: 150px;
+
+.section1unun1 {
+    padding-top: 50px;
 }
-.section1unun2{
+
+.section1unun2 {
     width: 88%;
-   
+
 }
 
-.section1unun2 img{
+.section1unun2 img {
     width: 50%;
-   height: 10%;
+    height: 10%;
 }
 
-.section1{
+.section1 {
     background-color: #03001C;
 }
-.section1unun2{
+
+.section1unun2 {
     display: flex;
     margin: auto;
     background-color: white;
     border-radius: 10px;
     text-align: center;
 }
-.nameproduct h4{
+
+.nameproduct h4 {
     color: black;
     font-size: 22px;
-    text-transform:capitalize;
+    text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     width: 50%;
 
 }
-.content1{
+
+.content1 {
     text-align: start;
     display: flex;
     width: 100%;
 }
-.nameproduct{
+
+.nameproduct {
     width: 100%;
 }
-.nameproduct p{
+
+.nameproduct p {
     padding-right: 40px;
     width: 45%;
     float: right;
     text-align: end;
     margin-top: -30px;
 }
-.itemunpadd{
+
+.itemunpadd {
     padding: 10px;
 }
-.productcontenttext{
+
+.productcontenttext {
     font-size: 14px;
     text-align: start;
 }
-.btnproduct{
+
+.btnproduct {
     float: right;
 }
-.btnproduct3{
+
+.btnproduct3 {
     text-align: center;
     width: 130px;
 }
-.text-aline{
+
+.text-aline {
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
 }
-.sectionmnheading{
+
+.sectionmnheading {
     text-align: center;
 }
-.sectionmnheading h1{
+
+.sectionmnheading h1 {
     font-size: 55px;
     color: white;
     padding-bottom: 50px;

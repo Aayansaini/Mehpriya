@@ -1,16 +1,14 @@
 /*-----------------WORKING OF MIDDLE PART OF MEHPRIYA----------------------*/
-import './Slider.css'
+import "./Slider.css";
 export function Slider1() {
-    const style ={
-        
-    }
+  const style = {};
   return (
     <>
       <div className="section Section_Box">
         <div className="container Content_Box">
-          <div className="col-sm-12 Col_Box_1">
+          {/* <div className="col-sm-12 Col_Box_1">
             <p>MEHPRIYA</p>
-          </div>
+          </div> */}
           <div className="col-sm-12 Col_Box_2">
             <div
               id="carouselExampleInterval"
@@ -20,26 +18,32 @@ export function Slider1() {
               <div className="carousel-inner Slider_Box">
                 <div className="carousel-item active" data-bs-interval="10000">
                   <p>
-                  50% OFF ON <span>CLASSIC</span><br></br>SARRES 
+                    50% OFF ON <span>CLASSIC</span>
+                    <br></br>SARRES
                   </p>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
                   <p>
-                  20% OFF ON <span>BRANDED</span><br></br>KURTIES 
+                    20% OFF ON <span>BRANDED</span>
+                    <br></br>KURTIES
                   </p>
                 </div>
                 <div className="carousel-item">
                   <p>
-                  30% OFF ON <span>Night</span><br></br>OUTFITS 
+                    30% OFF ON <span>Night</span>
+                    <br></br>OUTFITS
                   </p>
                 </div>
                 <div className="carousel-item">
                   <p>
-                  Big Deal<span> Buy 1 Get -1 Free</span><br></br>CLOTHS 
+                    Big Deal<span> Buy 1 Get -1 Free</span>
+                    <br></br>CLOTHS
                   </p>
-                </div><div className="carousel-item">
+                </div>
+                <div className="carousel-item">
                   <p>
-                  SHOPPING<span> WITH </span><br></br> Mehpriya🛍 
+                    SHOPPING<span> WITH </span>
+                    <br></br> Mehpriya🛍
                   </p>
                 </div>
               </div>
@@ -71,7 +75,7 @@ export function Slider1() {
           </div>
           <div className="Button_Preview">
             <button>Buy Now</button>
-            </div>
+          </div>
         </div>
       </div>
     </>

@@ -103,7 +103,7 @@
  .Section_Box {
    height: 100vh;
    display: flex;
-   background-image: url("/public/assets/pexels-rômulo-carolino-2914286.jpg");
+   /* background-image: url("/public/assets/pexels-rômulo-carolino-2914286.jpg"); */
    background-repeat: no-repeat;
    background-size: cover;
    /* background-color: brown; */
@@ -229,4 +229,10 @@
 
  .Front-Drop {
    background-color: #03001C;
+ }
+
+ .logo-img {
+   height: 6vh;
+   width: 100px;
+   margin-left: 3px;
  }

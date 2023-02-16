@@ -9,7 +9,7 @@
 .Section_Box {
     height: 100vh;
     display: flex;
-    background-image: url("../../pexels-ali-shot-11190774.jpg");
+    background-image: url("../../wooden-boards-texture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: brown; */
@@ -71,8 +71,8 @@
 .Slider_Box {
     height: 50vh;
     display: flex;
-    /* color: #f9f9f9; */
-    align-items: center;
+    margin-top: 70px;
+    /* align-items: center; */
     /* background-color: black; */
 }
 

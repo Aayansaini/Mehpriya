@@ -1,11 +1,12 @@
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min";
+import logo from "../../src/logo.jpeg";
 export function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light  Navbar_Color">
       <div className="container-fluid">
         <a className="navbar-brand text-light" href="/">
-          MEHPRIYA🛒
+          <img className="logo-img" src={logo} alt="..." />
         </a>
         <button
           className="navbar-toggler bg-light"
@@ -30,7 +31,7 @@ export function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="/product">
+              <a className="nav-link text-light" href="/Categories">
                 PRODUCTS
               </a>
             </li>
@@ -50,7 +51,7 @@ export function Navbar() {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <a className="dropdown-item" href="/Categories">
+                  <a className="dropdown-item" href="#">
                     KURTIES
                   </a>
                 </li>

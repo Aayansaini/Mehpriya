@@ -12,18 +12,61 @@
     /* background-color: black; */
 }
 
+.col-box-a1 {
+    height: 200px;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    justify-content: center;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-image: url('../../k.jpeg');
+}
+
+.col-box-a1 a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-box-a1 p {
+    font-size: 50px;
+    font-weight: 900;
+    color: #f9f9f9;
+}
+
 .col-box-5 {
     height: 200px;
-    border-radius: 10px;
     margin: auto;
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    color: #f9f9f9;
     margin-top: 25px;
+    align-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    justify-content: center;
     background-color: yellow;
+    background-repeat: no-repeat;
+    background-image: url('../../e.jpeg');
 }
 
 .col-box-0 {
     height: 200px;
     margin: auto;
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
     margin-top: 25px;
+    color: #f9f9f9;
     border-radius: 10px;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
     background-color: yellow;
+    background-repeat: no-repeat;
+    background-image: url('../../f.jpeg');
 }
