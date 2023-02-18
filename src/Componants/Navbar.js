@@ -1,6 +1,6 @@
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min";
-import logo from "../../src/logo.jpeg";
+import logo from "../../src/Assets/logo.jpeg";
 export function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light  Navbar_Color">

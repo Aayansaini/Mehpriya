@@ -1,7 +1,11 @@
 /*-----------------WORKING OF MIDDLE PART OF MEHPRIYA----------------------*/
-import "./Slider.css";
+import Bannera from "../Slider/Assets/Bannera.png";
+import Bannerb from "../Slider/Assets/Bannerb.png";
+import Bannerc from "../Slider/Assets/Bannerc.png";
+import Bannerd from "../Slider/Assets/Bannerd.png";
+import Bannere from "../Slider/Assets/Bannere.png";
+import "../Slider/Slider.css";
 export function Slider1() {
-  const style = {};
   return (
     <>
       <div className="section Section_Box">
@@ -17,34 +21,29 @@ export function Slider1() {
             >
               <div className="carousel-inner Slider_Box">
                 <div className="carousel-item active" data-bs-interval="10000">
-                  <p>
-                    50% OFF ON <span>CLASSIC</span>
-                    <br></br>SARRES
-                  </p>
+                  <div>
+                    <img src={Bannera} alt="..." />
+                  </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                  <p>
-                    20% OFF ON <span>BRANDED</span>
-                    <br></br>KURTIES
-                  </p>
+                  <div>
+                    <img src={Bannerb} alt="..." />
+                  </div>
                 </div>
                 <div className="carousel-item">
-                  <p>
-                    30% OFF ON <span>Night</span>
-                    <br></br>OUTFITS
-                  </p>
+                  <div>
+                    <img src={Bannerc} alt="..." />
+                  </div>
                 </div>
                 <div className="carousel-item">
-                  <p>
-                    Big Deal<span> Buy 1 Get -1 Free</span>
-                    <br></br>CLOTHS
-                  </p>
+                  <div>
+                    <img src={Bannerd} alt="..." />
+                  </div>
                 </div>
                 <div className="carousel-item">
-                  <p>
-                    SHOPPING<span> WITH </span>
-                    <br></br> Mehpriya🛍
-                  </p>
+                  <div>
+                    <img src={Bannere} alt="..." />
+                  </div>
                 </div>
               </div>
               <button

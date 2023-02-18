@@ -9,7 +9,7 @@
 .Section_Box {
     height: 100vh;
     display: flex;
-    background-image: url("../../wooden-boards-texture.jpg");
+    background-image: url("../../Assets/wooden-boards-texture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: brown; */
@@ -63,16 +63,14 @@
 }
 
 .Col_Box_2 {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     /* background-color: red; */
 }
 
 .Slider_Box {
     height: 50vh;
-    display: flex;
     margin-top: 70px;
-    /* align-items: center; */
     /* background-color: black; */
 }
 
@@ -85,4 +83,9 @@
 
 span {
     color: pink;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }

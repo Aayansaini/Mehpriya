@@ -23,7 +23,7 @@
     justify-content: center;
     background-color: yellow;
     background-repeat: no-repeat;
-    background-image: url('../../k.jpeg');
+    background-image: url('../../../src/Assets/k.jpeg');
 }
 
 .col-box-a1 a {
@@ -51,7 +51,7 @@
     justify-content: center;
     background-color: yellow;
     background-repeat: no-repeat;
-    background-image: url('../../e.jpeg');
+    background-image: url('../../../src/Assets/e.jpeg');
 }
 
 .col-box-0 {
@@ -68,5 +68,5 @@
     justify-content: center;
     background-color: yellow;
     background-repeat: no-repeat;
-    background-image: url('../../f.jpeg');
+    background-image: url('../../../src/Assets/f.jpeg');
 }
