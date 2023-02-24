@@ -5,7 +5,8 @@
     justify-content: center;
     background-color: #03001C;
 }
-.section_box3 p{
+
+.section_box3 p {
     color: pink;
     font-size: 25px;
     margin-top: 40px;
@@ -14,6 +15,7 @@
     text-transform: uppercase;
     text-shadow: 1px 1px 40px pink;
 }
+
 .container_box3 {
     display: flex;
     justify-content: center;
@@ -26,7 +28,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: crimson;  */
+    /* background-color: crimson; */
 }
 
 .col_box3 {
@@ -37,9 +39,21 @@
     /* background-color: chartreuse; */
 }
 
+.col_box3 img {
+    height: 100%;
+    width: 100%;
+}
+
 .slider_pic_container img {
     border-radius: 8px;
 }
-.slider_pic_container{
+
+.slider_pic_container {
     border-radius: 10px;
 }
+
+/* @media only screen and (max-width: 550px) {
+    .new_prfct {
+        height: 100vh !important;
+    }
+} */

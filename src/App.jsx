@@ -16,17 +16,19 @@ import { Products } from "./Componants/Product/Products";
 import { Navbar } from "./Componants/Navbar";
 import { Footer } from "./Componants/Footer/Footer";
 import { Cat } from "./Componants/Categories/Cat";
+import { About } from "./Componants/About-us/About";
 function App() {
   return (
     <>
       <Navbar />
       <Router>
-        <Switch>
+        <switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/Categories" component={Cat} />
           <Route exact path="/product" component={Products} />
-        </Switch>
+          <Route exact path="/About" component={About} />
+        </switch>
       </Router>
       <Footer />
     </>

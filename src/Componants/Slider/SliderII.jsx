@@ -25,13 +25,13 @@ export function SliderII() {
               >
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src={a} class="d-block w-100" alt="..." />
+                    <img src={a} class="d-block w-100 new_prfct" alt="..." />
                   </div>
                   <div class="carousel-item">
-                    <img src={b} class="d-block w-100" alt="..." />
+                    <img src={b} class="d-block w-100 new_prfct" alt="..." />
                   </div>
                   <div class="carousel-item">
-                    <img src={c} class="d-block w-100" alt="..." />
+                    <img src={c} class="d-block w-100 new_prfct" alt="..." />
                   </div>
                 </div>
               </div>

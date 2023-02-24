@@ -58,6 +58,7 @@
 
 .Col2_Box_2 ul {
     margin: auto;
+    padding-left: 0px;
 }
 
 .Col2_Box_2 ul li {
@@ -68,10 +69,16 @@
     text-transform: uppercase;
 }
 
-.Col2_Box_2 ul li:hover {
+.Col2_Box_2 ul li a:hover {
     color: pink;
     cursor: pointer;
     transition: 0.5s;
+}
+
+.Col2_Box_2 ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #f9f9f9;
 }
 
 .Foot {
@@ -181,4 +188,18 @@
     font-size: 55px;
     color: white;
     padding-bottom: 50px;
+}
+
+/* @media only screen and (max-width: 550px) {
+    .ovrssx {
+        overflow-x: hidden;
+    }
+} */
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+    overflow-x: hidden !important;
 }

@@ -18,7 +18,7 @@
  .Col1_Box_1 h1 {
    font-size: 30px;
    font-weight: 800;
-   text-shadow: 1px 1px 30px pink;
+   /* text-shadow: 1px 1px 30px pink; */
    color: pink;
  }
 
