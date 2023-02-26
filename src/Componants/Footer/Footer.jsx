@@ -60,7 +60,7 @@ export function Footer() {
                   <a>Track Order</a>
                 </li>
                 <li>
-                  <a>Terms & Conditions</a>
+                  <a href="/Terms">Terms & Conditions</a>
                 </li>
                 <li>
                   <a>Information</a>

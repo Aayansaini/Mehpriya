@@ -17,6 +17,7 @@ import { Navbar } from "./Componants/Navbar";
 import { Footer } from "./Componants/Footer/Footer";
 import { Cat } from "./Componants/Categories/Cat";
 import { About } from "./Componants/About-us/About";
+import { Terms } from "./Componants/Terms&Conditions/Terms";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/Categories" component={Cat} />
           <Route exact path="/product" component={Products} />
           <Route exact path="/About" component={About} />
+          <Route exact path="/Terms" component={Terms} />
         </switch>
       </Router>
       <Footer />
